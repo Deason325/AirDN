@@ -15,8 +15,7 @@
 		<h1 style="padding-left:3em">    Welcome to AirD </h1><hr>
 	</div>
 	<a id="signIn" href="#signIn">Sign In</a>
-	<a id="signUp" href="http://localhost:8080/AirD/register.jsp">Sign Up</a>
-	
+	<a id="signUp" href="http://localhost:8080/AirDN/register.jsp">Sign Up</a>
 	<br><br><br><br>
 	
 	<div class="navbar" >
