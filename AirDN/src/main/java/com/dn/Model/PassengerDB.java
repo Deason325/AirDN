@@ -13,9 +13,9 @@ public class PassengerDB {
 		Connection con = db.getCon();
 		try {
 			Statement stmt = con.createStatement();
-			stmt.executeUpdate("INSERT INTO Passenger (`lastName`,`firstName`,`phoneNumber` "
-					+ "VALUE ('"+rb.getLastName()+"','"+rb.getFirstName()+"','"+rb.getPhone()+"')");
-			s1 = "Data inserted";
+			stmt.executeUpdate("INSERT INTO Passenger (`lastName`,`firstName`,`phoneNumber`)"
+					+ " VALUE ('"+rb.getLastName()+"','"+rb.getFirstName()+"','"+rb.getPhone()+"')");
+			s1 = "passenger added";
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
